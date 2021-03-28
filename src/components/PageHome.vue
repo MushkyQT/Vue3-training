@@ -4,17 +4,17 @@
 </template>
 
 <script>
-import ThreadList from "./ThreadList";
 import sourceData from '@/data.json'
+import ThreadList from "./ThreadList";
 
 export default {
-  data() {
-    return {
-      threads: sourceData.threads,
-    }
-  },
   components: {
     ThreadList
-  }
+  },
+  data() {
+    return {
+      threads: sourceData.threads
+    }
+  },
 }
 </script>

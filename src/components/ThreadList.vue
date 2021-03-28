@@ -12,7 +12,7 @@
 </template>
 
 <script>
-import ThreadListItem from "./ThreadListItem";
+import ThreadListItem from "@/components/ThreadListItem";
 
 export default {
   components: {
